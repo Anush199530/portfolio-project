@@ -53,6 +53,28 @@ p {
   line-height: 2;
   font-size: 24px;
 }
+.about-section {
+  padding: 160px 30px;
+}
+.about-section h1 {
+  font-size: 55px;
+  line-height: 1;
+}
+.about-section h2 {
+  font-size: 20px;
+  font-family: var(--default-font-family);
+}
+.about-section p {
+  font-size: 15px;
+  font-family: var(--default-font-family);
+}
+.about-section img {
+  width: 500px;
+}
+.about-section-content {
+  margin: 30px;
+}
+
 .btn-branding {
   background-color: var(--branding-color);
   border-radius: 4px;
@@ -75,22 +97,23 @@ p {
 }
 
 @media (max-width: 960px) {
-  h1{
-font-size: 50px;
-line-height: 1.5;
-
+  h1 {
+    font-size: 50px;
+    line-height: 1.5;
   }
 
-  h2{
+  h2 {
     font-size: 45px;
   }
+  .about-section {
+    text-align: center;
+    padding: 0;
+  }
   .project-description {
-    
     padding: 0;
     text-align: center;
   }
-.hero {
- 
-  padding: 60px 20px;
-}
+  .hero {
+    padding: 60px 20px;
+  }
 }
