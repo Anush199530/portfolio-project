@@ -23,9 +23,8 @@ h1 {
 h2 {
   font-size: 64px;
 }
-h4{
+h4 {
   font-size: 48px;
-
 }
 p {
   font-weight: normal;
@@ -37,6 +36,7 @@ p {
   font-weight: normal;
   margin: 0;
 }
+
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
@@ -112,6 +112,13 @@ p {
 #smaller-logo {
   max-height: 50px;
 }
+.subhead {
+  margin: 120px 20px;
+}
+.subhead h2 {
+  font-size: 40px;
+  font-family: var(--heading-font-family);
+}
 nav {
   padding: 20px 0;
 }
@@ -141,13 +148,13 @@ nav a:hover {
 footer {
   margin: 60px 0;
 }
-footer .contact-box{
+footer .contact-box {
   background-color: var(--secondary-color);
   padding: 30px 160px;
   border-radius: 10px;
 }
-footer .contact-box p{
-margin: 0;
+footer .contact-box p {
+  margin: 0;
 }
 
 footer .email-link {
@@ -174,6 +181,23 @@ footer .social-links a :hover {
   color: white;
   color: var(--branding-color);
 }
+footer hr {
+  margin: 0 auto;
+  background-color: white;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 3px;
+  width: 25%;
+}
+footer .coded-by{
+  text-align: center;
+  font-size: 15px ;
+  font-family: var(--default-font-family);
+}
+footer .coded-by a {
+  text-decoration: none;
+color: black;}
 
 @media (max-width: 960px) {
   h1 {
@@ -184,10 +208,10 @@ footer .social-links a :hover {
   h2 {
     font-size: 45px;
   }
-   h4 {
+  h4 {
     font-size: 15px;
   }
-  
+
   .content {
     text-align: center;
     padding: 0;
@@ -202,5 +226,4 @@ footer .social-links a :hover {
   nav a {
     font-size: 12px;
   }
- 
 }
